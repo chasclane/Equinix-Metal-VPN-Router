@@ -18,14 +18,14 @@ Terraform uses modules to deploy infrastructure. In order to initialize the modu
 
 
 ## Reserve a /28 Public IP Address block from the Equinix Metal Portal:
-*Go to console.equinix.com
-  *IPs and Networks
-    *IPs
-      *Request IP addresses
-        *Public IPv4
-        *Location = select the datacenter you're deploying this to
-        *Quantity = /28 (16 IPs)
-        *Add a description for your new block.
+* Go to console.equinix.com
+  * IPs and Networks
+    * IPs
+      * Request IP addresses
+        * Public IPv4
+        * Location = select the datacenter you're deploying this to
+        * Quantity = /28 (16 IPs)
+        * Add a description for your new block.
 
 
 ## Modify your variables 
