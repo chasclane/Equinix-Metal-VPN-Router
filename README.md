@@ -1,6 +1,6 @@
 # Equinix-Metal-VPN-Router
 
-This repo has Terraform plans to deploy a network edge device on Equinix Metal as a router-gateway for L2TP/IPSec VPN and to be configured with basic network perimeter security configurations.
+This repo has Terraform plans to deploy an edge device on Equinix Metal configured as a router-gateway for L2TP/IPSec VPN and is prepped to be configured with additional basic network perimeter security configurations according to best practices.
 
 ## Install Terraform 
 Terraform is just a single binary.  Visit their [download page](https://www.terraform.io/downloads.html), choose your operating system, make the binary executable, and move it into your path. 
