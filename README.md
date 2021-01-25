@@ -17,21 +17,21 @@ sudo mv terraform /usr/local/bin/
 Terraform uses modules to deploy infrastructure. In order to initialize the modules you run: `terraform init`. This should download a few modules into a hidden directory called `.terraform` 
 
 
-## Reserve a /28 Public IP Address block from the Equinix Metal Portal:
+## Reserve a /29 Public IP Address block from the Equinix Metal Portal:
 * Go to console.equinix.com
   * IPs and Networks
     * IPs
       * Request IP addresses
         * Public IPv4
         * Location = select the datacenter you're deploying this to
-        * Quantity = /28 (16 IPs)
+        * Quantity = /29 (8 IPs)
         * Add a description for your new block.
 
 
 ## Modify your variables 
 There is a `terraform.tfvars` file that you can copy and use to update with your deployment variables. Open the file in a text editor to update the variables.
 
-* Modify the variable: public_ips_cidr = ["123.123.123.0/28"]
+* Modify the variable: public_ips_cidr = ["123.123.123.0/29"]
 
 The following variable blocks must be validated to be accurate for your desired deployment:
 
